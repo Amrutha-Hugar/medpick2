@@ -1,0 +1,192 @@
+.right-containent {
+  width: 85%;
+
+  .Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    .Navbar-left {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .Navbar-left-icon {
+        background-color: white;
+        padding: 15px;
+        border-radius: 30px;
+      }
+      .title-text {
+        font-size: 40px;
+        font-weight: 700;
+        color: #1b2535;
+      }
+    }
+    .Navbar-right {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .NonBioMedical {
+        height: 44px;
+        width: 190px;
+        color: #1b2535;
+        background-color: white;
+        border-radius: 30px;
+        padding: 2px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .NonBioMedical-B {
+          background-color: #1b2535;
+          padding: 10px 15px;
+          border-radius: 30px;
+          color: white;
+          font-size: 15px;
+          font-weight: 700;
+        }
+        .NonBioMedical-text {
+          font-size: 15px;
+          font-weight: 500;
+          margin-right: 15px;
+        }
+      }
+      .selector {
+        width: 190px;
+        background-color: white;
+        padding: 14px;
+        border-radius: 30px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #1b2535;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .selector-title {
+        }
+        .selector-icon {
+        }
+      }
+      .Block {
+        background-color: white;
+        padding: 10px 15px;
+        border-radius: 30px;
+      }
+      .profile {
+        background-color: #1b2535;
+        padding: 10px 15px;
+        border-radius: 30px;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .Iincident {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .incidentCard {
+      background-color: white;
+      border-radius: 2px;
+      width: 29%;
+      padding: 20px;
+      .incidentreport {
+        color: #4690ff;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+      .incidentreport-link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 25px;
+        font-weight: 700;
+        color: #1b2535;
+      }
+    }
+  }
+
+  .IncedentSearch-container {
+    padding: 20px;
+    color: #1b2535;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    .IncedentSearch-left {
+      padding: 23px 10px;
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      .search-container {
+        border-bottom: 1px solid #f1f1f1;
+        input {
+          border: none;
+        }
+      }
+      .selector {
+        font-size: 18px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+    }
+    .IncedentSearch-right {
+      display: flex;
+      justify-content: end;
+      width: 30%;
+      padding: 15px 25px;
+      background-color: white;
+      button {
+        background-color: #4690ff;
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+      }
+    }
+  }
+
+  .Table {
+    color: #1b2535;
+    padding: 20px;
+    table {
+      text-align: left;
+      width: 100%;
+      background-color: white;
+      padding: 10px;
+      th {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px;
+        border-bottom: 1px solid #f1f1f1;
+      }
+      td {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 10px;
+      }
+      button {
+        border-radius: 30px;
+        padding: 10px 20px;
+        color: white;
+        background-color: #ff6b00;
+        font-size: 15px;
+        font-weight: 600;
+        width: 150px;
+        border: none;
+        text-align: left;
+      }
+    }
+  }
+}
